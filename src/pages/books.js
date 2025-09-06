@@ -3,8 +3,8 @@ import { useRouteData } from 'react-static'
 //
 import { Link } from 'components/Router'
 
-export default function Blog() {
-  const { posts } = useRouteData()
+export default function Books() {
+  const { books } = useRouteData()
   return (
     <div>
       <h1>It's blog time.</h1>
@@ -16,9 +16,9 @@ export default function Blog() {
       <br />
       All Posts:
       <ul>
-        {posts.map(post => (
-          <li key={post.id}>
-            <Link to={`/blog/post/${post.id}/`}>{post.title}</Link>
+        {books.map(book => (
+          <li key={book.title}>
+            <Link to={`/books/${book.id}/`}>{book.title}</Link>
           </li>
         ))}
       </ul>

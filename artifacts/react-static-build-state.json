@@ -1,0 +1,62 @@
+{
+  "prefetchRate": 5,
+  "maxThreads": null,
+  "disableRoutePrefixing": false,
+  "outputFileRate": 100,
+  "extensions": [
+    ".js",
+    ".jsx"
+  ],
+  "minLoadTime": 200,
+  "disablePreload": false,
+  "disableRuntime": false,
+  "preloadPollInterval": 300,
+  "productionSourceMaps": false,
+  "silent": false,
+  "entry": "index.js",
+  "plugins": [
+    [
+      "C:\\Users\\gtrus\\workplace\\BookClubWebsite\\book-club-website\\node_modules\\react-static-plugin-source-filesystem\\node.api.js",
+      {
+        "location": "C:\\Users\\gtrus\\workplace\\BookClubWebsite\\book-club-website\\src\\pages"
+      }
+    ],
+    "C:\\Users\\gtrus\\workplace\\BookClubWebsite\\book-club-website\\node_modules\\react-static-plugin-reach-router\\browser.api.js",
+    "C:\\Users\\gtrus\\workplace\\BookClubWebsite\\book-club-website\\node_modules\\react-static-plugin-sitemap\\dist\\node.api.js",
+    "C:\\Users\\gtrus\\workplace\\BookClubWebsite\\book-club-website"
+  ],
+  "paths": {
+    "ROOT": "C:\\Users\\gtrus\\workplace\\BookClubWebsite\\book-club-website",
+    "SRC": "C:\\Users\\gtrus\\workplace\\BookClubWebsite\\book-club-website\\src",
+    "DIST": "C:\\Users\\gtrus\\workplace\\BookClubWebsite\\book-club-website\\dist",
+    "ASSETS": "C:\\Users\\gtrus\\workplace\\BookClubWebsite\\book-club-website\\dist",
+    "PLUGINS": "C:\\Users\\gtrus\\workplace\\BookClubWebsite\\book-club-website\\plugins",
+    "TEMP": "C:\\Users\\gtrus\\workplace\\BookClubWebsite\\book-club-website\\tmp",
+    "ARTIFACTS": "C:\\Users\\gtrus\\workplace\\BookClubWebsite\\book-club-website\\artifacts",
+    "PUBLIC": "C:\\Users\\gtrus\\workplace\\BookClubWebsite\\book-club-website\\public",
+    "NODE_MODULES": "C:\\Users\\gtrus\\workplace\\BookClubWebsite\\book-club-website\\node_modules",
+    "EXCLUDE_MODULES": "C:\\Users\\gtrus\\workplace\\BookClubWebsite\\book-club-website\\node_modules",
+    "PACKAGE": "C:\\Users\\gtrus\\workplace\\BookClubWebsite\\book-club-website\\package.json",
+    "HTML_TEMPLATE": "C:\\Users\\gtrus\\workplace\\BookClubWebsite\\book-club-website\\dist\\index.html",
+    "STATIC_DATA": "C:\\Users\\gtrus\\workplace\\BookClubWebsite\\book-club-website\\dist\\staticData"
+  },
+  "siteRoot": "/",
+  "basePath": "",
+  "publicPath": "/",
+  "assetsPath": "",
+  "extractCssChunks": false,
+  "inlineCss": false,
+  "babelExcludes": [],
+  "devServer": {
+    "host": "localhost",
+    "port": 3000
+  },
+  "terser": {
+    "terserOptions": {
+      "mangle": {},
+      "parse": {},
+      "compress": {},
+      "output": {}
+    }
+  }
+}
